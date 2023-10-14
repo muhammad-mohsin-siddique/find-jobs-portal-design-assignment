@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+body{
+    background-color: #11121A;
+    color: white;
+}
+header{
+    width: 100%;
+    background-color: #6A15E1;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 40px;
+}
+.logo{
+    background-image: url(./img/profile.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    border-radius: 50px;
+    margin-left: 8%;
+}
+header span{
+    margin: 20px 10px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-bar{
+    width: 80%;
+    background-color: #1C1C24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-left:20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.search-bar input{
+    width: 88%;
+    height: 100%;
+    background-color: #1C1C24;
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.search-bar button{
+    min-width: 9.6%;
+    background-color: #5513CF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 20px;
+    font-weight: lighter;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.result-shown {
+
+    margin: 20px;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 165px;
+}
+
+
+/* main section with job details */
+.job-position{   
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+
+/* box of job position  */
+.job-details{
+    width: 346px;
+    height: auto;
+    background-color: #1C1C24;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    padding-top: 10px;
+}
+.header-job-details{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C1C24;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.job-description{
+
+    padding: 0px 40px;
+    font-weight: 300;
+}
+.job-description h2{
+    font-weight: 300;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.job-description p{
+    height: 150px;
+    font-weight: lighter;
+    font-size: large;
+    line-height: 1.2;
+}
+.buttons{
+    padding: 20px 40px;
+    display: flex;
+}
+
+.apply-button{
+    background-color: #550DDB;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.message-button{
+    background-color: #FF8800;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.job-details:hover{
+
+    transform: scale(1.05);
+
+}
