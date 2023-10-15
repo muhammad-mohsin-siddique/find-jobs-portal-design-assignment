@@ -1,50 +1,101 @@
 @media screen and (max-width: 1350px) {
-
-    .search-bar{
-        width: 70%;
-    }
-    .search-bar input{
-        width: 85%;
-    }
-    .search-bar button{
-        min-width: 9.6%;
-        margin-left: 10px;
-    }
-    .job-position{   
-        width: 90%;
-        display: flex;
-        gap: 25px;
-        flex-wrap: wrap;
-        margin-left: 80px;
-    }
-    
+  .search-bar {
+    width: 70%;
+  }
+  .search-bar input {
+    width: 85%;
+  }
+  .search-bar button {
+    min-width: 9.6%;
+    margin-left: 10px;
+  }
+  .job-position {
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+  }
 }
 
 @media screen and (max-width: 1210px) {
+  header {
+    width: auto;
+  }
 
-    header{
-        width: auto;
-    }
-
-    .job-position{   
-        width: auto;
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-        margin-left: 50px;
-    }
-
-    
+  .job-position {
+    width: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 780px) {
-
-    .job-position{   
-        width: 80%;
-        display: flex;
-        gap: 25px;
-        flex-wrap: wrap;
-    }
-
-    
+  .job-position {
+    width: 80%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
 }
+
+@media screen and (max-width: 410px) {
+  .job-position {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+.search-bar{
+    width: 90%;
+}
+
+.result-shown {
+    margin-left: 50px;
+}
+
+
+/* main section with job details */
+.job-position{   
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    margin-left: 20px;
+}
+
+.job-description p{
+    height: 140px;
+}
+.buttons{
+    padding: 20px 30px;
+    display: flex;
+}
+
+.apply-button{
+    background-color: #550DDB;
+    color: white;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+
+.message-button{
+    background-color: #FF8800;
+    color: black;
+    padding: 10px 13px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.job-details:hover{
+
+    transform: scale(1.05);
+
+}
+}
+
+
